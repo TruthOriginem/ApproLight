@@ -3,6 +3,8 @@ package com.originem.approlight.util.compat.jei;
 import com.originem.approlight.blocks.machines.immerse_furnace.ContainerImmerseFurnace;
 import com.originem.approlight.blocks.machines.immerse_furnace.GuiImmerseFurnace;
 import com.originem.approlight.util.I18nUtil;
+import com.originem.approlight.util.compat.jei.analysis.AnalysisRecipeCategory;
+import com.originem.approlight.util.compat.jei.analysis.AnalysisRecipeMaker;
 import com.originem.approlight.util.compat.jei.immerse.ImmerseRecipeCatogory;
 import com.originem.approlight.util.compat.jei.immerse.ImmerseRecipeMaker;
 import mezz.jei.api.*;
@@ -20,6 +22,7 @@ public class JEICompat implements IModPlugin {
         final IGuiHelper gui = helpers.getGuiHelper();
 
         registry.addRecipeCategories(new ImmerseRecipeCatogory(gui));
+        registry.addRecipeCategories(new AnalysisRecipeCategory(gui));
     }
 
     @Override
@@ -29,6 +32,7 @@ public class JEICompat implements IModPlugin {
         IRecipeTransferRegistry recipeTransfer = registry.getRecipeTransferRegistry();
 
         registry.addRecipes(ImmerseRecipeMaker.getRecipes(jeiHelpers), RecipeCategories.IMMERSE);
+        registry.addRecipes(AnalysisRecipeMaker.getRecipes(jeiHelpers), RecipeCategories.ANALYSIS);
         //registry.addRecipeClickArea(GuiImmerseFurnace.class, , 0, 50, 50, RecipeCategories.IMMERSE);
         //recipeTransfer.addRecipeTransferHandler(ContainerImmerseFurnace.class,RecipeCategories.IMMERSE,0,1,3,36);
     }

@@ -39,3 +39,5 @@ item.specialeffect.thirstforlight.light=Replete
 item.specialeffect.thirstforlight.advanceTooltip=More damage and dig speed in the dark, more durability in the light.
 
 itemGroup.approlight=ApproLight
+
+gui.jei.al.analysis.name=Light Analysis

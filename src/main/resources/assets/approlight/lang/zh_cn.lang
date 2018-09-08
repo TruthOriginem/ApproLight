@@ -39,3 +39,5 @@ item.specialeffect.thirstforlight.light=满足
 item.specialeffect.thirstforlight.advanceTooltip=在黑暗中提升伤害和挖掘速度;在光明处拥有更多耐久.
 
 itemGroup.approlight=趋光
+
+gui.jei.al.analysis.name=析光
