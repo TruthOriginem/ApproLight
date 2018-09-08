@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "approlight:blocks/immerse_furnace_top",
+    "front": "approlight:blocks/immerse_furnace_front_on",
+    "side": "approlight:blocks/immerse_furnace_side"
+  }
+}

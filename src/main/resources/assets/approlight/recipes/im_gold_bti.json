@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "immersed_gold_ingot",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "approlight:immersed_gold_block"
+    }
+  },
+  "result": {
+    "item": "approlight:immersed_gold_ingot",
+    "count": 9
+  }
+}

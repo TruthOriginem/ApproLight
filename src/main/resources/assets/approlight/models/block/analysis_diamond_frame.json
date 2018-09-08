@@ -1,0 +1,7 @@
+{
+  "parent":"approlight:block/analysis_gold_frame",
+  "textures":{
+    "0": "minecraft:blocks/diamond_block",
+    "particle": "minecraft:blocks/diamond_block"
+  }
+}

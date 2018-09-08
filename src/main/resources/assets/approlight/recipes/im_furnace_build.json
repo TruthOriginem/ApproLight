@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "igi",
+    "gxg",
+    "igi"
+  ],
+  "key": {
+    "i": {
+      "item": "approlight:immersed_iron_ingot"
+    },
+    "g": {
+      "item": "approlight:immersed_gold_ingot"
+    },
+    "x": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "approlight:immerse_furnace",
+    "count": 1
+  }
+}

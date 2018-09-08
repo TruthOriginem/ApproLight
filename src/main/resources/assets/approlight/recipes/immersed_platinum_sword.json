@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    " X ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "approlight:shimmer_stick"
+    },
+    "X": {
+      "item": "approlight:immersed_platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "approlight:immersed_platinum_sword"
+  }
+}

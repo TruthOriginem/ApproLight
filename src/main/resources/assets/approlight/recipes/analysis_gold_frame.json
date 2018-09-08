@@ -1,0 +1,26 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "igi",
+    "gxg",
+    "igi"
+  ],
+  "key": {
+    "i": {
+      "type": "forge:ore_dict",
+      "ore": "ingotGold"
+    },
+    "g": {
+      "type": "forge:ore_dict",
+      "ore": "paneGlass"
+    },
+    "x": {
+      "type": "forge:ore_dict",
+      "ore": "blockGlass"
+    }
+  },
+  "result": {
+    "item": "approlight:analysis_gold_frame",
+    "count": 1
+  }
+}

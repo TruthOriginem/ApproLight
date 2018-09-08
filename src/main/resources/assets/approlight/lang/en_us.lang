@@ -1,0 +1,41 @@
+item.immersed_iron_ingot.name=Immersed Iron Ingot
+item.immersed_gold_ingot.name=Immersed Gold Ingot
+item.immersed_platinum_ingot.name=Immersed Platinum Ingot
+item.immersed_glass_gold_ingot.name=Immersed Glass Ingot
+item.immersed_diamond.name=Immersed Diamond
+item.immersed_rotten_flesh.name=Immersed Rotten Flesh
+
+item.immersed_platinum_pickaxe.name=Immersed Platinum Pickaxe
+item.immersed_platinum_axe.name=Immersed Platinum Axe
+item.immersed_platinum_shovel.name=Immersed Platinum shovel
+item.immersed_platinum_hoe.name=Immersed Platinum Hoe
+item.immersed_platinum_sword.name=Immersed Platinum Sword
+
+item.shimmer_coal.name=Shimmer Coal
+item.shimmer_impurity.name=Shimmer Impurity
+item.shimmer_gel.name=Shimmer Gel
+item.shimmer_stick.name=Shimmer Stick
+
+item.analysis_powder.name=Analysis Powder
+
+tile.immersed_iron_block.name=Immersed Iron Block
+tile.immersed_gold_block.name=Immersed Gold Block
+tile.immerse_furnace.name=Immerse Furnace
+tile.analysis_gold_frame.name=Light-Analysis Golden Frame
+tile.analysis_diamond_frame.name=Light-Analysis Diamond Frame
+
+container.immerse_furnace=Light-Immersing Furnace
+
+info.shimmerfuel.name=Shimmer Fuel
+info.anadurability.name=Analysis Durability
+
+al.lightrequired.insufficient=Light Is Insufficient
+al.lightrequired.analysisCompleted=Analysis Completed
+
+item.specialeffect.toAdvance=Press shift to show more information...
+item.specialeffect.thirstforlight.name=Thirst For Light
+item.specialeffect.thirstforlight.dark=Thirsty
+item.specialeffect.thirstforlight.light=Replete
+item.specialeffect.thirstforlight.advanceTooltip=More damage and dig speed in the dark, more durability in the light.
+
+itemGroup.approlight=ApproLight

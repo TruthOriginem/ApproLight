@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "burning=false,facing=north": {"model": "approLight:immerse_furnace"},
+    "burning=false,facing=south": {"model": "approLight:immerse_furnace", "y": 180},
+    "burning=false,facing=west": {"model": "approLight:immerse_furnace", "y": 270},
+    "burning=false,facing=east": {"model": "approLight:immerse_furnace", "y": 90},
+    "burning=true,facing=north": {"model": "approLight:lit_immerse_furnace"},
+    "burning=true,facing=south": {"model": "approLight:lit_immerse_furnace", "y": 180},
+    "burning=true,facing=west": {"model": "approLight:lit_immerse_furnace", "y": 270},
+    "burning=true,facing=east": {"model": "approLight:lit_immerse_furnace", "y": 90}
+  }
+}

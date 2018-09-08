@@ -1,0 +1,6 @@
+{
+  "parent":"block/cube_all",
+  "textures":{
+    "all":"approlight:blocks/immersed_iron_block"
+  }
+}

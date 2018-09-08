@@ -1,0 +1,21 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "i i",
+    " x ",
+    "i i"
+  ],
+  "key": {
+    "i": {
+      "type": "forge:ore_dict",
+      "ore": "gemDiamond"
+    },
+    "x": {
+      "item": "approlight:analysis_gold_frame"
+    }
+  },
+  "result": {
+    "item": "approlight:analysis_diamond_frame",
+    "count": 1
+  }
+}

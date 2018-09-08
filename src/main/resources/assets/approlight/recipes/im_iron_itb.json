@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iii",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "approlight:immersed_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "approlight:immersed_iron_block",
+    "count": 1
+  }
+}
