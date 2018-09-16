@@ -10,11 +10,16 @@ item.immersed_platinum_axe.name=浸光铂金斧
 item.immersed_platinum_shovel.name=浸光铂金铲
 item.immersed_platinum_hoe.name=浸光铂金锄
 item.immersed_platinum_sword.name=浸光铂金剑
+item.immersed_crystal_chisel.name=浸光晶透凿子
+item.immersed_crystal_chisel.info=右击一些方块来获得特殊的道具.
+item.immersed_obsidian_debris.name=浸光黑曜碎石
 
 item.shimmer_coal.name=微光燃煤
 item.shimmer_impurity.name=微光杂质
 item.shimmer_gel.name=微光凝胶
 item.shimmer_stick.name=微光木棍
+item.shimmer_flint.name=微光燧石
+item.obsidian_debris.name=黑曜碎石
 
 item.analysis_powder.name=析光粉
 

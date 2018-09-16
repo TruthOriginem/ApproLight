@@ -40,7 +40,9 @@ public class ItemAxeBase extends ItemAxe implements IHasModel, IHasItemSpecialEf
     public boolean onBlockDestroyed(ItemStack stack, World worldIn, IBlockState state, BlockPos pos, EntityLivingBase entityLiving) {
         boolean origin = super.onBlockDestroyed(stack, worldIn, state, pos, entityLiving);
         if (origin) {
-            origin &= onBlockDestoryed(ItemSpecialEffect.ThirstForLight, stack, worldIn, entityLiving);
+            for (ItemSpecialEffect effect : effects) {
+                origin &= onBlockDestoryed(effect, stack, worldIn, entityLiving);
+            }
         }
         return origin;
     }

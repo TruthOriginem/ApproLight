@@ -25,20 +25,28 @@ public class ModItems {
 
     public static final ToolMaterial IMMERSED_PLATINUM = EnumHelper.addToolMaterial(
             "immersed_platinum", 2, 350, 8f, 2.5f, 20).setRepairItem(new ItemStack(ModItems.IMMERSED_PLATINUM_INGOT));
-
+    public static final ToolMaterial IMMERSED_CRYSTAL = EnumHelper.addToolMaterial(
+            "immersed_crystal", 3, 2400, 12f, 4f, 18).setRepairItem(new ItemStack(ModItems.IMMERSED_GLASS_GOLD_INGOT));
+    /*Immerse and related items*/
     public static final Item IMMERSED_IRON_INGOT = new ItemBase("immersed_iron_ingot");
     public static final Item IMMERSED_GOLD_INGOT = new ItemBase("immersed_gold_ingot");
     public static final Item IMMERSED_DIAMOND = new ItemBase("immersed_diamond");
     public static final Item IMMERSED_PLATINUM_INGOT = new ItemBase("immersed_platinum_ingot").setBaseRarity(EnumRarity.RARE);
     public static final Item IMMERSED_GLASS_GOLD_INGOT = new ItemBase("immersed_glass_gold_ingot").setBaseRarity(EnumRarity.EPIC);
+    public static final Item OBSIDIAN_DEBRIS = new ItemBase("obsidian_debris");
+    public static final Item IMMERSED_OBSIDIAN_DEBRIS = new ItemBase("immersed_obsidian_debris");
 
-    public static final Item SHIMMER_COAL = new ItemShimmerFuel("shimmer_coal",2000,800);
+    /*Shimmer and related items*/
+    public static final Item SHIMMER_COAL = new ItemShimmerFuel("shimmer_coal", 2000, 800);
     public static final Item SHIMMER_IMPURITY = new ItemShimmerFuel("shimmer_impurity", 200, 200);
     public static final Item SHIMMER_GEL = new ItemShimmerFuel("shimmer_gel", 300, 400);
     public static final Item SHIMMER_STICK = new ItemBase("shimmer_stick");
+    public static final Item SHIMMER_FLINT = new ItemBase("shimmer_flint");
 
+    /*Analysis and related items*/
     public static final Item ANALYSIS_POWDER = new ItemAnalysisPowder("analysis_powder", 1200);
 
+    /*Item tools*/
     public static final Item IMMERSED_ROTTEN_FLESH = new ItemFoodBase("immersed_rotten_flesh", 5, 0.4f, true)
             .setPotionEffect(new PotionEffect(MobEffects.GLOWING, 600), 1f).setAlwaysEdible();
 
@@ -47,6 +55,7 @@ public class ModItems {
     public static final Item IMMERSED_PLATINUM_HOE = new ItemHoeBase("immersed_platinum_hoe", IMMERSED_PLATINUM, ItemSpecialEffect.ThirstForLight);
     public static final Item IMMERSED_PLATINUM_SWORD = new ItemSwordBase("immersed_platinum_sword", IMMERSED_PLATINUM, ItemSpecialEffect.ThirstForLight);
     public static final Item IMMERSED_PLATINUM_AXE = new ItemAxeBase("immersed_platinum_axe", IMMERSED_PLATINUM, 8, -3, ItemSpecialEffect.ThirstForLight);
+    public static final Item IMMERSED_CRYSTAL_CHISEL = new ItemCrystalChisel("immersed_crystal_chisel", IMMERSED_CRYSTAL);
 
     /**
      * Should be put in every mod item classes.

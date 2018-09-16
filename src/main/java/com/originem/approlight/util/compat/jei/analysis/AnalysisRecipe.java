@@ -22,15 +22,16 @@ public class AnalysisRecipe implements IRecipeWrapper {
     @Override
     public void getIngredients(IIngredients ingredients) {
         ingredients.setInput(VanillaTypes.ITEM, input);
-        ingredients.setOutput(VanillaTypes.ITEM,output);
+        ingredients.setOutput(VanillaTypes.ITEM, output);
+
     }
 
     @Override
     public void drawInfo(Minecraft minecraft, int recipeWidth, int recipeHeight, int mouseX, int mouseY) {
         FontRenderer renderer = minecraft.fontRenderer;
         AnalysisShimmerRecipes recipes = AnalysisShimmerRecipes.getInstance();
-        String time = recipes.getAnalysedTime(input)+"";
-        int width = renderer.getStringWidth(time)/2;
-        renderer.drawString(time,recipeWidth/2 - width - 6 ,-1, Color.gray.getRGB());
+        String time = recipes.getAnalysedTime(input) + "";
+        int width = renderer.getStringWidth(time) / 2;
+        renderer.drawString(time, recipeWidth / 2 - width - 6, -1, Color.gray.getRGB());
     }
 }

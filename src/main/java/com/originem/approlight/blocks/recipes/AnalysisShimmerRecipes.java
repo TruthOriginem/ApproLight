@@ -24,6 +24,7 @@ public class AnalysisShimmerRecipes {
         addRecipes(new ItemStack(Items.STICK), new ItemStack(ModItems.SHIMMER_STICK), 10 * 20);
         addRecipes(new ItemStack(Items.COAL), new ItemStack(ModItems.SHIMMER_COAL), 20 * 20);
         addRecipes(new ItemStack(Items.COAL, 1, 1), new ItemStack(ModItems.SHIMMER_COAL), 30 * 20);
+        addRecipes(new ItemStack(Items.FLINT), new ItemStack(ModItems.SHIMMER_FLINT), 20 * 20);
     }
 
     private void addRecipes(ItemStack source, ItemStack result, int ticks) {
@@ -60,7 +61,7 @@ public class AnalysisShimmerRecipes {
         return stack2.getItem() == stack1.getItem() && (stack2.getMetadata() == 32767 || stack2.getMetadata() == stack1.getMetadata());
     }
 
-    public Map<ItemStack,ItemStack> getRecipes(){
+    public Map<ItemStack, ItemStack> getRecipes() {
         return analysisList;
     }
 }

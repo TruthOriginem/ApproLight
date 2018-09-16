@@ -1,7 +1,5 @@
 package com.originem.approlight.util.compat.jei;
 
-import com.originem.approlight.blocks.machines.immerse_furnace.ContainerImmerseFurnace;
-import com.originem.approlight.blocks.machines.immerse_furnace.GuiImmerseFurnace;
 import com.originem.approlight.util.I18nUtil;
 import com.originem.approlight.util.compat.jei.analysis.AnalysisRecipeCategory;
 import com.originem.approlight.util.compat.jei.analysis.AnalysisRecipeMaker;

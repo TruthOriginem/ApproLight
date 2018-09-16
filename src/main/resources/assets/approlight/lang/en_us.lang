@@ -1,7 +1,7 @@
 item.immersed_iron_ingot.name=Immersed Iron Ingot
 item.immersed_gold_ingot.name=Immersed Gold Ingot
 item.immersed_platinum_ingot.name=Immersed Platinum Ingot
-item.immersed_glass_gold_ingot.name=Immersed Glass Ingot
+item.immersed_glass_gold_ingot.name=Immersed Crystal Ingot
 item.immersed_diamond.name=Immersed Diamond
 item.immersed_rotten_flesh.name=Immersed Rotten Flesh
 
@@ -10,11 +10,16 @@ item.immersed_platinum_axe.name=Immersed Platinum Axe
 item.immersed_platinum_shovel.name=Immersed Platinum shovel
 item.immersed_platinum_hoe.name=Immersed Platinum Hoe
 item.immersed_platinum_sword.name=Immersed Platinum Sword
+item.immersed_crystal_chisel.name=Immersed Crystal chisel
+item.immersed_crystal_chisel.info=Right click on some kind of block to dig something special.
+item.immersed_obsidian_debris.name=Immersed Obsidian Debris
 
 item.shimmer_coal.name=Shimmer Coal
 item.shimmer_impurity.name=Shimmer Impurity
 item.shimmer_gel.name=Shimmer Gel
 item.shimmer_stick.name=Shimmer Stick
+item.shimmer_flint.name=Shimmer Flint
+item.obsidian_debris.name=Obsidian Debris
 
 item.analysis_powder.name=Analysis Powder
 

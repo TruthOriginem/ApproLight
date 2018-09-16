@@ -1,0 +1,7 @@
+{
+  "block.chisel.dig": {
+    "category": "block",
+    "subtitle": "block.chisel.dig",
+    "sounds": [{"name": "approlight:block/chisel/dig", "stream": true}]
+  }
+}

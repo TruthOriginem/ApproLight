@@ -27,6 +27,7 @@ public class StackUtil {
         float dY = world.rand.nextFloat() * 0.4F + 0.3F;
         float dZ = world.rand.nextFloat() * 0.4F + 0.3F;
         EntityItem entityItem = new EntityItem(world, pos.getX() + dX, pos.getY() + dY, pos.getZ() + dZ, itemStack.copy());
+        entityItem.setDefaultPickupDelay();
         float factor = 0.02F;
         entityItem.motionX = world.rand.nextGaussian() * factor;
         entityItem.motionY = world.rand.nextGaussian() * factor + 0.2F;

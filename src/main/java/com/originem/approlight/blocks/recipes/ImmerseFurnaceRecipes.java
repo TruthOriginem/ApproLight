@@ -5,7 +5,6 @@ import com.google.common.collect.Maps;
 import com.google.common.collect.Table;
 import com.originem.approlight.init.ModItems;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.oredict.OreDictionary;
 
 import java.util.Map;
 
@@ -21,6 +20,8 @@ public class ImmerseFurnaceRecipes {
                 new ItemStack(ModItems.IMMERSED_PLATINUM_INGOT), 10.0F);
         addImmerseRecipe(new ItemStack(ModItems.IMMERSED_PLATINUM_INGOT), new ItemStack(ModItems.IMMERSED_DIAMOND),
                 new ItemStack(ModItems.IMMERSED_GLASS_GOLD_INGOT), 20.0F);
+        addImmerseRecipe(new ItemStack(ModItems.OBSIDIAN_DEBRIS), new ItemStack(ModItems.SHIMMER_FLINT),
+                new ItemStack(ModItems.IMMERSED_OBSIDIAN_DEBRIS), 10f);
     }
 
     public static ImmerseFurnaceRecipes getInstance() {
